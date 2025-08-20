@@ -1,0 +1,3 @@
+Ejecutar tags
+git baths : ./gradlew test -D "cucumber.filter.tags=@Courses"
+pwshell: gradle test -D "cucumber.filter.tags=@Courses"
